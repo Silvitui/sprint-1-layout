@@ -111,3 +111,27 @@ body {
   border: 20px solid black;
   padding: 20px;
 }
+
+
+
+
+@media (max-width:900px){
+
+  body{
+      background-color: #f03787;
+  }
+
+  .header{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .main{
+      display:flex;
+      flex-direction: column;
+  }
+
+}
+
+
