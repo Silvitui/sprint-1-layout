@@ -16,7 +16,6 @@ body {
   max-width: 1200px;
   width: 100%;
   gap: 20px;
-  background-color: #fff;
   padding: 20px;
 }
 
@@ -134,4 +133,15 @@ body {
 
 }
 
+@media  (max-width: 600px) {
+  body {
+      background-color: #c70991;
+  }
 
+  .articles-section{
+      display: flex;
+      flex-direction: column;
+  }
+
+  
+}
