@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #464242;
+  gap: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.header-section {
+  background-color: #222;
+  border: 10px solid #222;
+}
+
+
+.logo,
+.nav,
+.social {
+  flex: 1;
+  padding: 10px;
+  background-color: #f67542;
+
+}
+
+.nav {
+  flex: 2;
+}
+
+
+.banner {
+  display: flex;
+  background-color: #000000;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 20px solid #f67542;
+  margin: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border: 10px solid #000000;
+}
+
+.articles-section {
+  display: grid;
+  border: 20px solid #000000;
+  padding: 20px;
+  background-color: #f67542;
+  gap: 10px;
+}
+
+.articles {
+  background-color: #f6ba42;
+  text-align: start;
+  padding: 10px;
+  height: 40px;
+}
+
+.navegacion {
+  grid-column: span 2;
+  background-color: #f6ba42;
+  padding: 10px;
+  gap: 10px;
+}
+
+.publicidad {
+  background-color: #f67542;
+  padding: 20px;
+}
+
+.advertisement {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 20px solid #000000;
+  background-color: #f6ba42;
+  gap: 10px;
+}
+
+
+
+.footer {
+  background-color: #f67542;
+  font-weight: bold;
+  border: 20px solid black;
+  padding: 20px;
+}
