@@ -145,3 +145,14 @@ body {
 
   
 }
+.logo:hover {
+  animation: animacion 0.2s forwards; 
+}
+
+@keyframes animacion {
+  100% {
+      background-color: #6901cb;
+      height: 80px;
+  
+  }
+}
